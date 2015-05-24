@@ -518,6 +518,11 @@ static CGFloat const FIELD_MARGIN_X = 4.0; // Note: Same as CLTokenView.PADDING_
     [self repositionViews];
 }
 
+- (void)setInputAccessoryView:(UIView *)inputAccessoryView
+{
+	_inputAccessoryView = inputAccessoryView;
+	self.textField.inputAccessoryView = _inputAccessoryView;
+}
 
 #pragma mark - Drawing
 

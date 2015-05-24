@@ -61,6 +61,7 @@
 @property (copy, nonatomic) IBInspectable NSString *fieldName;
 @property (copy, nonatomic) IBInspectable NSString *placeholderText;
 @property (strong, nonatomic) UIView *accessoryView;
+@property (strong, nonatomic) UIView *inputAccessoryView;
 @property (assign, nonatomic) IBInspectable UIKeyboardType keyboardType;
 @property (assign, nonatomic) IBInspectable UITextAutocapitalizationType autocapitalizationType;
 @property (assign, nonatomic) IBInspectable UITextAutocorrectionType autocorrectionType;
